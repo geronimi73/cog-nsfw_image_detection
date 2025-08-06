@@ -1,0 +1,15 @@
+# PyTorch and related packages - use specific compatible versions
+torch==2.1.0
+torchvision==0.16.0
+
+# Transformers library for the NSFW model - pin to compatible version
+transformers==4.36.2
+
+# Image processing
+Pillow>=9.0.0
+
+# NumPy - pin to compatible version to avoid 1.x/2.x issues
+numpy<2.0.0
+
+# Pin safetensors to compatible version with torch 2.1.0
+safetensors==0.4.1
